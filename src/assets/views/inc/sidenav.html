@@ -1,0 +1,9 @@
+<ul class="menu menu-lg" ng-controller="sidnav">
+  <li ng-repeat="sidItem in sidItems">
+  	<a ng-click="goPage(sidItem.page)">
+	    <ng-md-icon icon="{{sidItem.icon}}"></ng-md-icon>
+			<span ng-show="sidOpn" class="oln">{{sidItem.name}}</span>
+  		<div ng-hide="sidOpn" class="tooltip tooltip-right" data-tip="{{sidItem.name}}"></div>
+		</a>
+  </li>
+</ul>

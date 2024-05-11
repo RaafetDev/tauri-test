@@ -1,0 +1,22 @@
+<div class="layout-row p-2">
+    <div class="layout-row flex">
+        <button class="btn btn-circle btn-ghost" ng-click="sidNav()">
+            <ng-md-icon icon="menu"></ng-md-icon>
+        </button>
+        <img src="./assets/img/wzLogo.png" style="width: 110px;height: 48px;" ng-click="goPage('home')">
+    </div>
+    <div class="flex">
+        <label class="input input-bordered flex items-center gap-2">
+            <ng-md-icon icon="search"></ng-md-icon>
+            <input type="text" class="grow" placeholder="Search" />
+        </label>
+    </div>
+    <div class="flex layout-align-end-center">
+        <button class="btn btn-circle btn-ghost mr-2">
+            <ng-md-icon icon="settings"></ng-md-icon>
+        </button>
+        <button class="btn btn-circle btn-ghost">
+            <ng-md-icon icon="account_circle"></ng-md-icon>
+        </button>
+    </div>
+</div>
